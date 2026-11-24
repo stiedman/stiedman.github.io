@@ -81,7 +81,7 @@ h1 {
 h2 {
   font-size: 1.2rem;
   color: var(--navy);
-  margin: 1.5rem 0 0.4rem;
+  margin: 0rem 0 0.4rem;
 }
 
 p {
@@ -172,4 +172,21 @@ blockquote {
 
 .photo-interests ul {
   padding-left: 1.25rem;
+}
+
+.contact-methods {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 0rem;
+}
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 130px;
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--text);
+ 
 }
