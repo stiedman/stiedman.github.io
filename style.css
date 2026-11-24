@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: Inter, "Times New Roman", serif;
   color: var(--text);
   background-color: #FFFAF0;
   line-height: 1.7;
@@ -49,7 +49,7 @@ nav {
 }
 
 nav a {
-  font-size: 0.95rem;
+  font-size: 1.2rem;
   text-decoration: none;
   padding-bottom: 3px;
   border-bottom: 2px solid transparent;
@@ -131,7 +131,7 @@ ul {
 footer {
   text-align: center;
   padding: 1.5rem;
-  font-size: 0.85rem;
+  font-size: 1.1rem;
   border-top: 1px solid #DDDDDD;
 }
 blockquote {
